@@ -20,5 +20,5 @@ Postman
   > HTTP Method : GET   
   > Headers : 'Client ID' & 'CLient Secret' 적어주기   
   > Params :
-    > 'query' : 검색어. url 인코딩하여 넣기.
-    > display : 한번에 표시할 검색 결과. 기본 10개가 디폴트 값.
+    1. 'query' : 검색어. url 인코딩하여 넣기.
+    2. display : 한번에 표시할 검색 결과. 기본 10개가 디폴트 값.
