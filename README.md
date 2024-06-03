@@ -20,7 +20,7 @@ Postman
   > HTTP Method : GET   
   > Headers : 'Client ID' & 'CLient Secret' 적어주기   
   > Params :
-    1. 'query' : 검색어. url 인코딩하여 넣기.
+  > 1. 'query' : 검색어. url 인코딩하여 넣기.
     2. display : 한번에 표시할 검색 결과. 기본 10개가 디폴트 값. 3이면 3개씩 보여줌.
     3. start : 검색 시작 위치. (=페이지)
     4. sort : sim (=디폴트값) 정확도순으로 내림차순. date 날짜순으로 내림차순.
