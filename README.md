@@ -16,9 +16,9 @@ Postman
 ## [작동방법]
 - 네이버 개발자 센터에서 '에플리케리션 등록' > '애플리케이션 정보' 의 'Client ID' & 'CLient Secret' 필요.
 - endpoint
-  > URL : https://openapi.naver.com/v1/search/blog.json
-  > HTTP Method : GET
-  > Headers : 'Client ID' & 'CLient Secret' 적어주기
-  > Params : 'query' : 검색어. url 인코딩하여 넣기.
+  > URL : https://openapi.naver.com/v1/search/blog.json   
+  > HTTP Method : GET   
+  > Headers : 'Client ID' & 'CLient Secret' 적어주기   
+  > Params : 'query' : 검색어. url 인코딩하여 넣기.   
              display : 한번에 표시할 검색 결과. 기본 10개가 디폴트 값.
   >  
