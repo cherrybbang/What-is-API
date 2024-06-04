@@ -23,3 +23,18 @@ REST API : API 종류 중 하나. API의 한 구현방식. (Representational Sta
 ##### 따라서, API는 소프트웨어 간 상호작용을 가능하게 하는 모든 종류의 인터페이스를 의미하는 포괄적인 개념이고, REST API는 API의 구현방식 중 하나인 것이다.
 
 ##### URI는 네트워크 상 리소스를 가리키는 일종의 고유식별자(ID)이다. URL/URN은 URI에 포함되는 개념이며, URL은 리소스의 위치, URN은 리소스의 이름을 의미한다.
+
+https://www.google.com/search?q=fruit
+Scheme |  Authority   | Path | Parameters
+
+401 에러 > 인증되지 않았을 때  
+403 에러 > 권한이 없을 때
+404 에러 > 요청한 endpoint가 없을 때 (endpoint 즉, URL)
+405 에러 > GET 방식인데 POST 방식으로 요청했을 경우
+ 
+API는 서버와 데이터베이스에 대한 출입구 역할을 한다.
+데이터베이스에는 중요한 정보들이 저장되기 때문에 아무나 출입할 수 없다. 따라서, 혀용된 사람들에게만 접근성을 부여한다.
+
+
+<참고문서> 
+https://hyunki99.tistory.com/38
